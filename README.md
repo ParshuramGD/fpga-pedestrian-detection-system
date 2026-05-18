@@ -59,7 +59,7 @@ The system pipeline includes:
 4. Bounding box generation
 5. Video overlay output
 
-![System Architecture](assets/block_diagram.png)
+![System Architecture](Pedestrian_detection/assets/block_diagram.png)
 
 ---
 
@@ -75,7 +75,7 @@ The system pipeline includes:
 * Lightweight CNN architecture
 * Hardware-oriented optimization for FPGA deployment
 
-![Training Results](assets/model_training.png)
+![Training Results](Pedestrian_detection/assets/model_training.png)
 
 ---
 
@@ -102,7 +102,7 @@ The design targets low-power edge inference suitable for FPGA-based embedded AI 
 * Hardware acceleration reduces software processing overhead
 * Suitable for edge AI and embedded vision applications
 
-![Power Analysis](assets/power_analysis.png)
+![Power Analysis](Pedestrian_detection/assets/power_analysis.png)
 
 ---
 
@@ -116,7 +116,7 @@ The design was synthesized and deployed on the Lattice CertusPro-NX FPGA platfor
 * Real-time bounding box visualization
 * Hardware-accelerated processing pipeline
 
-![Hardware Output](assets/inference_result.jpg)
+![Hardware Output](Pedestrian_detection/assets/inference_result.jpg)
 
 ---
 
